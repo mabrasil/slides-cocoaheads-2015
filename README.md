@@ -1,55 +1,18 @@
-# Construindo aplicações Híbridas com Ionic
+# Super Aplicações Híbridas com Ionic
 
-Slides from my talk at 3º CocoaHeads Fortaleza about building hybrid mobile apps with Ionic Framework.
+![Screenshot](src/images/meta/screenshot.png)
 
-## Tools
+## The talk
 
-These slides are made using [Reveal.JS](http://lab.hakim.se/reveal-js/), [Gulp](http://gulpjs.com/) for
-automation, [Jade](http://jade-lang.com/) as a template engine and [Stylus](http://learnboost.github.io/stylus/)
-as a preprocessor.
+- **Title:** *Aplicações Híbridas com Ionic*
+- **When:** May, 28
+- **Where:** Instituto Federal de Educação, Ciência e Tecnologia do Ceará, Campus Fortaleza.
+- **Attendees:** ≈40
+- **Description:** [Abraão](https://github.com/AbraaoAlves) and I will make an overview of the features of [Ionic](http://ionicframework.com/): a framework for creating hybrid apps that has been growing more and more. It's free and open source and offers a HTML, CSS and JS library optimized for smartphones - as well as great tools that give us a great alternative for mobile development.
+- **Presentation:** [See it live here](http://mabrasil.github.io/talks/2015/cocoaheads/).
 
-## Installing
+## The slides
 
-First of all, make sure you have [NodeJS](http://nodejs.org/) and [GulpJS](http://gulpjs.com/)
+These slides are made using [xzibit](https://github.com/mabrasil/xzibit) v.1.0.0. To get more info on how to run and that kind of things, visit the project's page.
 
-Clone this repository:
-
-```sh
-$ git clone git://github.com/mabrasil/slides-cocoaheads-2015
-$ cd slides-cocoaheads-2015
-```
-
-Install NodeJS dependencies:
-
-```sh
-$ npm install
-```
-
-Run Tasks and Serve:
-
-```sh
-$ gulp
-```
-
-## Basics
-
-- Each new **slide** (horizontally navigated) is a new `.jade` file in which we work on - and after add in
- `src/templates/index.jade` making the includes in the order of presentation.
-
-- Each new **vertical slide** (vertically navigated, inside a **slide**) is a `section.sec-slide` within the `section`
- in the slide that you're working in.
-
-- Each new **fragment** (that makes elements appear as you navigate inside the slide - giving more interactivity) you
- have to add `.fragment` in the element. Ex.: If you want a list, but you don't want it to be displayed at once, but as
- you navigate in the slide, then you do:
-
-```jade
-ul
-    li.fragment Item 1
-    li.fragment Item 2
-    li.fragment Item 3
-```
-
-## Thanks
-
-Not made with, but inspired by philosophy behind [this boilerplate](https://github.com/willianjusten/reveal-boilerplate).
+The slides' content is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_GB).
